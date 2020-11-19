@@ -1,0 +1,45 @@
+.Home {
+    width: 100%;
+    min-height: 93vh;
+    max-height: 105vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    flex: 1;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./uchihas.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    overflow-x: hidden;
+}
+
+.Home .heroBox {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ad343c;
+    
+}
+
+.Home .heroBox h2 {
+    font-size: 6rem;
+
+
+}
+
+.Home .heroBox h1 {
+    font-size: 10rem;
+}
+
+.Home .heroBox img {
+    width: 20rem;
+    height: 20rem;
+
+    animation: spin 4s linear infinite;
+}

@@ -1,0 +1,36 @@
+.Itachi {
+    width: 100%;
+    min-height: 93vh;
+    max-height: 105vh;
+    display: flex;
+
+    flex: 1;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./itachi-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    overflow-x: hidden;
+}
+
+.Itachi .heroBox {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.heroImg {
+    width: 25%;
+    height: 98%;
+
+    transition: all .3s;
+}
+
+.heroImg:hover {
+    transform: translateX(20px);
+    cursor: pointer;
+}

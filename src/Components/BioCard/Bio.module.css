@@ -1,0 +1,30 @@
+.Bio {
+    width: 40%;
+    height: 90%;
+    padding: 2rem;
+
+    border-radius: 10px;
+    background-color: var(--white);
+
+    box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Bio span {
+    font-size: 2rem;
+    color: var(--Grey-dark-3);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 6px;
+    line-height: 1.1;
+    
+}
+
+.Bio h1 {
+    font-size: 3rem;
+    color: var(--Grey-dark-3);
+}
